@@ -64,7 +64,7 @@ button{
     font-size: 18px;
 }
 
-img{
+.main{
     width: 450px;
     height: 260px;
 }
@@ -75,4 +75,36 @@ img{
 
 .placeholder {
     background-color: gray;
+}
+
+#title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.text{
+    text-align: center;
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.542);
+    font-weight: bold;
 }
